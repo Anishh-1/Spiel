@@ -1,5 +1,6 @@
 package spiel;
 import java.util.Random;
+
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
@@ -9,7 +10,7 @@ public class Spiel {
 		Random zufall = new Random();
 		Scanner sc = new Scanner(System.in);
 
-		int n = zufall.nextInt(100) + 1; //Zahl zwischen 1 und 100
+		int n = zufall.nextInt(200) + 1; //Zahl zwischen 1 und 100
 	//
 	JOptionPane.showMessageDialog(null, "Rate die Zahl zwischen 1 und 100");
 
